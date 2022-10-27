@@ -1,7 +1,7 @@
 from .db import Base
 from sqlalchemy import Column, Integer, String, Float
 
-#Model fo table creation
+#Model for table creation
 class Address(Base):
     __tablename__ = "address"
     id = Column(Integer, primary_key=True, index=True)
